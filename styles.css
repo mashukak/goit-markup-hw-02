@@ -1,0 +1,138 @@
+body {
+    background-color: rgba(255, 255, 255, 1);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(244, 244, 253, 1);
+}
+
+nav {
+    align-items: center;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgba(67, 68, 85, 1);
+    font-weight: 500;
+}
+
+address {
+    font-style: normal;
+    text-decoration: none;
+}
+.contact-list li a {
+    text-decoration: none;
+    color: rgba(67, 68, 85, 1);
+    font-weight: 400;
+}
+
+.intro-section {
+    background-color: rgba(46, 47, 66, 1);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+   
+}
+
+.intro-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.button-h1 {
+    background-color: rgba(77, 90, 229, 1);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 16px;
+}
+
+.block-service {
+    text-align: center;
+    text-decoration: none;
+}
+
+.block-service ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.block-service h3 {
+    font-size: 20px;
+    color: rgba(46, 47, 66, 1);
+}
+
+.block-service p {
+    font-size: 16px;
+    color: rgba(67, 68, 85, 1);
+}
+
+.block-team {
+    background-color: rgba(244, 244, 253, 1);
+    text-align: center;
+    text-decoration: none;
+}
+
+.block-team .title-team {
+    font-size: 32px;
+    color: rgba(46, 47, 66, 1);
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+}
+
+.foto-block {
+    text-align: center;
+    text-decoration: none;
+}
+.foto-block h3 {
+    font-size: 18px;
+    color: rgba(46, 47, 66, 1);
+}
+
+.foto-block p {
+    font-size: 16px;
+    color: rgba(67, 68, 85, 1);
+}
+
+footer {
+    background-color: rgba(46, 47, 66, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+footer .logo2 {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+footer .text-footer {
+    font-size: 16px;
+}
+
+.portfolio-list {
+    justify-content: center;
+    display: flex;
+}
+
+.portfolio-list li {
+    text-align: center;
+}
+
+.portfolio-list h3 {
+    font-size: 18px;
+    color: rgba(46, 47, 66, 1);
+}
+
+.portfolio-list p {
+    font-size: 16px;
+    color: rgba(67, 68, 85, 1);
+}
+.title-portfolio {
+   text-align: center;
+
+}
