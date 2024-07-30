@@ -7,8 +7,6 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
     background-color: rgba(244, 244, 253, 1);
 }
 
@@ -34,10 +32,6 @@ nav {
 .nav-list {
     display: flex;
     list-style: none;
-}
-
-.nav-list li {
-    margin-right: 20px;
 }
 
 .nav-list li a {
@@ -68,10 +62,6 @@ nav {
     list-style: none;
 }
 
-.contact-list li {
-    margin-left: 20px;
-}
-
 .contact-list li a {
     text-decoration: none;
     color: rgba(67, 68, 85, 1);
@@ -82,7 +72,6 @@ nav {
     background-color: #2e2f42;
     color: rgba(255, 255, 255, 1);
     text-align: center;
-    padding: 100px 20px;
 }
 
 .h1-title {
@@ -100,32 +89,23 @@ nav {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.04em;
-    cursor: pointer;
     line-height: 1.5;
     border: none;
-    padding: 10px 20px;
-    margin-top: 20px;
 }
 
 .main-button:hover,
 .main-button:focus {
     background-color: #404BBF;
 }
-
+ 
 .block-service {
     text-align: center;
-    padding: 50px 20px;
 }
-
+ 
 .block-service ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding: 0;
-}
-
-.block-service li {
-    width: 22%;
 }
 
 .block-service h3 {
@@ -141,24 +121,17 @@ nav {
 .block-team {
     background-color: rgba(244, 244, 253, 1);
     text-align: center;
-    padding: 50px 20px;
 }
 
 .block-team .title-team {
     font-size: 32px;
     color: rgba(46, 47, 66, 1);
-    margin-bottom: 30px;
 }
 
 .team-list {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 0;
-}
-
-.team-list li {
-    margin: 0 10px;
 }
 
 .foto-block {
@@ -168,7 +141,6 @@ nav {
 .foto-block h3 {
     font-size: 18px;
     color: rgba(46, 47, 66, 1);
-    margin-top: 10px;
 }
 
 .foto-block p {
@@ -178,26 +150,21 @@ nav {
 
 .block-portfolio {
     text-align: center;
-    padding: 50px 20px;
 }
 
 .title-portfolio {
     font-size: 32px;
     color: rgba(46, 47, 66, 1);
-    margin: 50px 0 20px;
 }
 
 .portfolio-list {
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
     list-style: none;
-    padding: 0;
 }
 
 .portfolio-list li {
     text-align: center;
-    margin: 10px;
     width: calc(33.33% - 20px);
 }
 
@@ -215,8 +182,8 @@ footer {
     background-color: rgba(46, 47, 66, 1);
     color: rgba(255, 255, 255, 1);
     text-align: center;
-    padding: 20px;
 }
+
 
 .logo2 {
     display: inline-block;
@@ -238,5 +205,4 @@ footer {
     color: rgba(244, 244, 253, 1);
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 10px;
 }
