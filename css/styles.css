@@ -99,14 +99,19 @@ header {
     list-style: none;
 }
 
-.block-service h3 {
+.block-service .title-strategy {
     font-size: 20px;
-    color: rgba(46, 47, 66, 1);
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.block-service p {
+.block-service .text-strategy {
     font-size: 16px;
-    color: rgba(67, 68, 85, 1);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .block-team {
