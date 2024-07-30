@@ -8,6 +8,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
     background-color: rgba(244, 244, 253, 1);
 }
 
@@ -30,33 +31,45 @@ nav {
     align-items: center;
 }
 
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
 .nav-list li a {
     text-decoration: none;
     color: rgba(67, 68, 85, 1);
     font-weight: 500;
     line-height: 1.5;
-    /* Додано line-height */
     letter-spacing: 0.02em;
-    /* Додано letter-spacing */
 }
 
 .contact-link {
     line-height: 1.5;
-    /* Додано line-height */
     letter-spacing: 0.02em;
-    /* Додано letter-spacing */
     color: #2e2f42;
-    /* Додано color */
 }
 
 .contact-link:hover,
 .contact-link:focus {
     color: #404bbf;
-    /* Додано зміну кольору при ховері та фокусі */
 }
 
 .address-class {
-    font-style: normal;
+    display: flex;
+}
+
+.contact-list {
+    display: flex;
+    list-style: none;
+}
+
+.contact-list li {
+    margin-left: 20px;
 }
 
 .contact-list li a {
@@ -69,6 +82,7 @@ nav {
     background-color: #2e2f42;
     color: rgba(255, 255, 255, 1);
     text-align: center;
+    padding: 100px 20px;
 }
 
 .h1-title {
@@ -76,12 +90,11 @@ nav {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #ffffff
-
+    color: #ffffff;
 }
 
 .main-button {
-    background-color: #4D5AE5 ;
+    background-color: #4D5AE5;
     color: rgba(255, 255, 255, 1);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -89,6 +102,9 @@ nav {
     letter-spacing: 0.04em;
     cursor: pointer;
     line-height: 1.5;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
 }
 
 .main-button:hover,
@@ -98,13 +114,18 @@ nav {
 
 .block-service {
     text-align: center;
-    text-decoration: none;
+    padding: 50px 20px;
 }
 
 .block-service ul {
     display: flex;
     justify-content: space-between;
-    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+.block-service li {
+    width: 22%;
 }
 
 .block-service h3 {
@@ -120,27 +141,34 @@ nav {
 .block-team {
     background-color: rgba(244, 244, 253, 1);
     text-align: center;
-    text-decoration: none;
+    padding: 50px 20px;
 }
 
 .block-team .title-team {
     font-size: 32px;
     color: rgba(46, 47, 66, 1);
+    margin-bottom: 30px;
 }
 
 .team-list {
     display: flex;
     justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.team-list li {
+    margin: 0 10px;
 }
 
 .foto-block {
     text-align: center;
-    text-decoration: none;
 }
 
 .foto-block h3 {
     font-size: 18px;
     color: rgba(46, 47, 66, 1);
+    margin-top: 10px;
 }
 
 .foto-block p {
@@ -151,9 +179,22 @@ nav {
 footer {
     background-color: rgba(46, 47, 66, 1);
     color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 20px;
 }
 
-.logo-span {
+.logo2 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+}
+
+.logo2 .logo-span {
     color: #2e2f42;
 }
 
@@ -162,15 +203,21 @@ footer {
     color: rgba(244, 244, 253, 1);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 10px;
 }
 
 .portfolio-list {
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
 }
 
 .portfolio-list li {
     text-align: center;
+    margin: 10px;
+    width: calc(33.33% - 20px);
 }
 
 .portfolio-list h3 {
@@ -185,4 +232,41 @@ footer {
 
 .title-portfolio {
     text-align: center;
+    font-size: 32px;
+    color: rgba(46, 47, 66, 1);
+    margin: 50px 0 20px;
+}
+.block-portfolio {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.title-portfolio {
+    font-size: 32px;
+    color: rgba(46, 47, 66, 1);
+    margin: 50px 0 20px;
+}
+
+.portfolio-list {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.portfolio-list li {
+    text-align: center;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+}
+
+.portfolio-list h3 {
+    font-size: 18px;
+    color: rgba(46, 47, 66, 1);
+}
+
+.portfolio-list p {
+    font-size: 16px;
+    color: rgba(67, 68, 85, 1);
 }
