@@ -19,10 +19,12 @@ header {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
 }
-
+.address-class{
+    font-style: normal
+} 
 .logo-span,
 .logo2-span {
-    color: #f4f4fd;
+    color: #2e2f42;
 }
 
 .nav-list {
@@ -70,6 +72,7 @@ header {
 .intro-section {
     background-color: #2e2f42;
     color: rgba(255, 255, 255, 1);
+    text-align: center
 }
 
 .h1-title {
