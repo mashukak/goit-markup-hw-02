@@ -10,6 +10,7 @@ header {
     align-items: center;
     background-color: rgba(244, 244, 253, 1);
 }
+
 .logo {
     font-weight: 700;
     font-size: 18px;
@@ -19,6 +20,7 @@ header {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
 }
+
 .logo-span {
     color: #2e2f42;
 }
@@ -33,33 +35,34 @@ nav {
     color: rgba(67, 68, 85, 1);
     font-weight: 500;
     line-height: 1.5;
+    /* Додано line-height */
     letter-spacing: 0.02em;
+    /* Додано letter-spacing */
 }
-.contact-link:hover {
-    color: #404bbf;
-    focus
 
+.contact-link {
+    line-height: 1.5;
+    /* Додано line-height */
+    letter-spacing: 0.02em;
+    /* Додано letter-spacing */
+    color: #2e2f42;
+    /* Додано color */
 }
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf;
+    /* Додано зміну кольору при ховері та фокусі */
+}
+
 .address-class {
     font-style: normal;
-    text-decoration: none;
 }
 
 .contact-list li a {
     text-decoration: none;
     color: rgba(67, 68, 85, 1);
     font-weight: 400;
-}
-
-.contact-link {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
 }
 
 .intro-section {
