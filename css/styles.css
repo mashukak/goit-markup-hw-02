@@ -9,7 +9,8 @@ header {
     background-color: rgba(244, 244, 253, 1);
 }
 
-.logo {
+.logo ,
+.logo-footer {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -21,8 +22,7 @@ header {
 .address-class{
     font-style: normal
 } 
-.logo-span,
-.logo2-span {
+.logo-span {
     color: #2e2f42;
 }
 
@@ -162,9 +162,9 @@ h2 {
 .portfolio-list {
     justify-content: center;
     list-style: none;
-    
+}
 
-.portfolio-list h3 {
+.text-portfolio {
     font-size: 18px;
     color: rgba(46, 47, 66, 1);
 }
@@ -175,7 +175,7 @@ h2 {
 }
 
 footer {
-    background-color: rgba(46, 47, 66, 1);
+    background-color: #2e2f42;
     color: #FFFFFF;
 }
 
