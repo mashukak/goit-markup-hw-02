@@ -36,7 +36,14 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+#studio {
+    color: #2e2f42;
+}
 
+#studio:hover
+#studio:focus {
+    color: #404bbf;
+}
 .contact-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -132,10 +139,6 @@ header {
     list-style: none;
 }
 
-.portfolio-list li {
-    width: calc(33.33% - 20px);
-}
-
 .portfolio-list h3 {
     font-size: 18px;
     color: rgba(46, 47, 66, 1);
@@ -162,8 +165,8 @@ footer {
     font-family: "Raleway", sans-serif;
 }
 
-h4    
-    {color: #2e2f42;
+h4    {
+    color: #2e2f42;
 }
 
 .text-footer {
