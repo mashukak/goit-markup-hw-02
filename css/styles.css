@@ -176,66 +176,6 @@ nav {
     color: rgba(67, 68, 85, 1);
 }
 
-footer {
-    background-color: rgba(46, 47, 66, 1);
-    color: rgba(255, 255, 255, 1);
-    text-align: center;
-    padding: 20px;
-}
-
-.logo2 {
-    display: inline-block;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    font-family: "Raleway", sans-serif;
-}
-
-.logo2 .logo-span {
-    color: #2e2f42;
-}
-
-.text-footer {
-    font-size: 16px;
-    color: rgba(244, 244, 253, 1);
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    margin-top: 10px;
-}
-
-.portfolio-list {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-}
-
-.portfolio-list li {
-    text-align: center;
-    margin: 10px;
-    width: calc(33.33% - 20px);
-}
-
-.portfolio-list h3 {
-    font-size: 18px;
-    color: rgba(46, 47, 66, 1);
-}
-
-.portfolio-list p {
-    font-size: 16px;
-    color: rgba(67, 68, 85, 1);
-}
-
-.title-portfolio {
-    text-align: center;
-    font-size: 32px;
-    color: rgba(46, 47, 66, 1);
-    margin: 50px 0 20px;
-}
 .block-portfolio {
     text-align: center;
     padding: 50px 20px;
@@ -269,4 +209,34 @@ footer {
 .portfolio-list p {
     font-size: 16px;
     color: rgba(67, 68, 85, 1);
+}
+
+footer {
+    background-color: rgba(46, 47, 66, 1);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 20px;
+}
+
+.logo2 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+}
+
+.logo2 .logo-span {
+    color: #2e2f42;
+}
+
+.text-footer {
+    font-size: 16px;
+    color: rgba(244, 244, 253, 1);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-top: 10px;
 }
