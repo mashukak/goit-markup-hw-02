@@ -115,17 +115,28 @@ header {
 }
 
 .block-team {
-    background-color: aliceblue;
+    background-color: #F4F4FD
 }
 
 .block-team .title-team {
-    font-size: 32px;
     color: rgba(46, 47, 66, 1);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .team-list {
     justify-content: center;
     list-style: none;
+    background-color: #FFFFFF;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .foto-block h3 {
