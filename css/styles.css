@@ -24,13 +24,9 @@ header {
     color: #2e2f42;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-}
 
 .nav-list {
-    display: flex;
+
     list-style: none;
 }
 
@@ -52,13 +48,7 @@ nav {
 .contact-link:focus {
     color: #404bbf;
 }
-
-.address-class {
-    display: flex;
-}
-
 .contact-list {
-    display: flex;
     list-style: none;
 }
 
@@ -71,14 +61,12 @@ nav {
 .intro-section {
     background-color: #2e2f42;
     color: rgba(255, 255, 255, 1);
-    text-align: center;
 }
 
 .h1-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #ffffff;
 }
 
@@ -90,7 +78,6 @@ nav {
     font-weight: 500;
     letter-spacing: 0.04em;
     line-height: 1.5;
-    border: none;
 }
 
 .main-button:hover,
@@ -98,12 +85,7 @@ nav {
     background-color: #404BBF;
 }
  
-.block-service {
-    text-align: center;
-}
- 
 .block-service ul {
-    display: flex;
     justify-content: space-between;
     list-style: none;
 }
@@ -119,9 +101,7 @@ nav {
 }
 
 .block-team {
-    background-color: rgba(244, 244, 253, 1);
-    text-align: center;
-}
+    background-color: aliceblue; }
 
 .block-team .title-team {
     font-size: 32px;
@@ -129,13 +109,8 @@ nav {
 }
 
 .team-list {
-    display: flex;
     justify-content: center;
     list-style: none;
-}
-
-.foto-block {
-    text-align: center;
 }
 
 .foto-block h3 {
@@ -148,10 +123,6 @@ nav {
     color: rgba(67, 68, 85, 1);
 }
 
-.block-portfolio {
-    text-align: center;
-}
-
 .title-portfolio {
     font-size: 32px;
     color: rgba(46, 47, 66, 1);
@@ -159,12 +130,10 @@ nav {
 
 .portfolio-list {
     justify-content: center;
-    display: flex;
     list-style: none;
 }
 
 .portfolio-list li {
-    text-align: center;
     width: calc(33.33% - 20px);
 }
 
@@ -180,13 +149,11 @@ nav {
 
 footer {
     background-color: rgba(46, 47, 66, 1);
-    color: rgba(255, 255, 255, 1);
-    text-align: center;
+    color: #FFFFFF;
 }
 
 
 .logo2 {
-    display: inline-block;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
