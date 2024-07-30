@@ -66,21 +66,24 @@ nav {
 }
 
 .intro-section {
-    background-color: rgba(46, 47, 66, 1);
+    background-color: #2e2f42;
     color: rgba(255, 255, 255, 1);
     text-align: center;
 }
 
-.main-heading {
+.h1-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff
+
 }
 
 .main-button {
-    background-color: rgba(77, 90, 229, 1);
+    background-color: #4D5AE5 ;
     color: rgba(255, 255, 255, 1);
-    text-align: center;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.04em;
