@@ -39,12 +39,12 @@ header {
     letter-spacing: 0.02em;
 }
 
-#studio {
+.studio {
     color: #2e2f42;
 }
 
-#studio:hover,
-#studio:focus {
+.studio:hover,
+.studio:focus {
     color: #404bbf;
 }
 
