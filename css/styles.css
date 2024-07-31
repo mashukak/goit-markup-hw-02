@@ -182,6 +182,10 @@ header {
     font-size: 20px;
     line-height: 1.2;
 }
+.description-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 .portfolio-list {
     justify-content: center;
@@ -201,7 +205,7 @@ header {
 
 .text-footer {
     font-size: 16px;
-    color: #F4F4FD);
+    color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: #2e2f42;
