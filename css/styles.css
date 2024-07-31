@@ -96,7 +96,10 @@ header {
 
 .main-button:hover,
 .main-button:focus {
-    background-color: #404BBF;
+    background-color: #404bbf;
+}
+.title-description {
+    color: #FFFFFF;
 }
 
 .block-service ul {
