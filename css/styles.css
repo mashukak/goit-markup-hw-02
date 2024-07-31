@@ -69,18 +69,13 @@ header {
     font-weight: 400;
 }
 
-.intro-section {
-    background-color: #2e2f42;
-    color: rgba(255, 255, 255, 1);
-    text-align: center
-}
-
 .main-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
-    text-align: center
+    text-align: center;
+    background-color: #2e2f42;
 }
 
 .main-button {
