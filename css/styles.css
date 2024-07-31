@@ -133,15 +133,7 @@ header {
 .block-team {
     background-color: #F4F4FD
 }
-.block-team-title{
-    color: rgba(46, 47, 66, 1);
-    font-size: 36px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    font-weight: 500;
-    line-height: 1.11;
-}
+.block-team-title,
 .title-portfolio {
     color: rgba(46, 47, 66, 1);
     font-size: 36px;
