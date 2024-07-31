@@ -109,7 +109,15 @@ header {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
+}
+.title-strategy{
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em
+}
+.text-strategy {
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .block-service h3 {
