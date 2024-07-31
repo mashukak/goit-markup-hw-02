@@ -68,6 +68,9 @@ header {
     color: rgba(67, 68, 85, 1);
     font-weight: 400;
 }
+.main-page {
+    color: #2e2f42;
+}
 
 .main-title {
     font-size: 56px;
