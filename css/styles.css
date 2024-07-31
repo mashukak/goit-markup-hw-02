@@ -198,14 +198,11 @@ header {
     color: rgba(67, 68, 85, 1);
 }
 
-footer {
-    background-color: #2e2f42;
-    color: #FFFFFF;
-}
 
 .text-footer {
     font-size: 16px;
-    color: var(--footer-text-color, #F4F4FD);
+    color: #F4F4FD);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    background-color: #2e2f42;
 }
