@@ -161,7 +161,8 @@ header {
 .foto-block p {
     font-size: 16px;
     color: rgba(67, 68, 85, 1);
-    line-height: 1.11
+    line-height: 1.11;
+    background-color: #FFFFFF;
 }
 .team-title {
     font-weight: 500;
