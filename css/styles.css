@@ -145,9 +145,9 @@ header {
 }
 
 .team-list {
+    background-color: #FFFFFF;
     justify-content: center;
     list-style: none;
-    background-color: #FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -170,7 +170,7 @@ header {
     letter-spacing: 0.02em;
 }
 .team-role {
-    line-height: 1.5
+    line-height: 1.5;
 }
 .title-portfolio {
     font-size: 36px;
