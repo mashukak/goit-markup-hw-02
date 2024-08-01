@@ -184,20 +184,7 @@ header {
     justify-content: center;
     list-style: none;
 }
-
-.text-portfolio {
-    font-size: 18px;
-    color: rgba(46, 47, 66, 1);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.portfolio-list p {
-    font-size: 16px;
-    color: rgba(67, 68, 85, 1);
-}
+=
 .footer-block {
     background-color: #2e2f42;
 }
@@ -208,4 +195,12 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: #2e2f42;
+}
+.text-portfolio {
+    font-size: 18px;
+    color: rgba(46, 47, 66, 1);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
