@@ -153,22 +153,14 @@ header {
     letter-spacing: 0.02em;
 }
 
-.foto-block h3 {
-    font-size: 18px;
-    color: rgba(46, 47, 66, 1);
-    background-color: #FFFFFF;
-}
-
 .foto-block p {
     font-size: 16px;
     color: rgba(67, 68, 85, 1);
-    line-height: 1.11;
+    line-height: 1.5;
     background-color: #FFFFFF;
 }
 .team-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     background-color: #FFFFFF
 }
@@ -198,6 +190,10 @@ header {
 .text-portfolio {
     font-size: 18px;
     color: rgba(46, 47, 66, 1);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-list p {
