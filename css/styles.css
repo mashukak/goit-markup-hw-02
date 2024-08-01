@@ -152,8 +152,10 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-.foto-block {
+.foto-block{
+    background-color: #FFFFFF;
+}
+.foto-block p{
     font-size: 16px;
     color: rgba(67, 68, 85, 1);
     line-height: 1.5;
