@@ -155,19 +155,17 @@ header {
 .foto-block{
     background-color: #FFFFFF;
 }
-.foto-block p{
-    font-size: 16px;
-    color: rgba(67, 68, 85, 1);
-    line-height: 1.5;
-    background-color: #FFFFFF;
-}
+
 .team-title {
-    line-height: 1.11;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: #FFFFFF
 }
 .team-role {
     line-height: 1.5;
+    font-size: 16px;
+    color: rgba(67, 68, 85, 1);
+    background-color: #FFFFFF;
 }
 .title-portfolio {
     color: rgba(46, 47, 66, 1);
