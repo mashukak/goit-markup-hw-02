@@ -6,7 +6,6 @@ body {
 
 header {
     justify-content: space-between;
-    background-color: rgba(244, 244, 253, 1);
 }
 
 .logo ,
@@ -18,15 +17,18 @@ header {
     text-transform: uppercase;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
+    text-decoration: none;
 }
 .address-class{
     font-style: normal
 } 
 .logo-span {
     color: #2e2f42;
+    text-decoration: none;
 }
 .logo-span-footer {
     color: rgba(244, 244, 253, 1);
+    text-decoration: none;
 }
 .nav-list {
     list-style: none;
